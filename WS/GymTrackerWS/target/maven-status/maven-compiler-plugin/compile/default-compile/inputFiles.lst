@@ -1,0 +1,8 @@
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/rest/ApplicationConfig.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/ws/ClientResource.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/rest/MyApplication.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/ejb/ClientManager.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/ws/ClientPhotoResource.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/entities/Client.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/ejb/IClientManager.java
+/Users/sean/git/Personal/GymTracker/WS/GymTrackerWS/src/main/java/za/co/blacklemon/ejb/IPhotoManager.java

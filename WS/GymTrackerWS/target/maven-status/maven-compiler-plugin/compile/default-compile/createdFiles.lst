@@ -1,0 +1,8 @@
+za/co/blacklemon/rest/ApplicationConfig.class
+za/co/blacklemon/ws/ClientPhotoResource.class
+za/co/blacklemon/ejb/IClientManager.class
+za/co/blacklemon/ejb/IPhotoManager.class
+za/co/blacklemon/rest/MyApplication.class
+za/co/blacklemon/ws/ClientResource.class
+za/co/blacklemon/entities/Client.class
+za/co/blacklemon/ejb/ClientManager.class
