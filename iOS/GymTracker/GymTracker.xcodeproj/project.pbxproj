@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146B990219D98FCB00A2AF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B990119D98FCB00A2AF07 /* AppDelegate.swift */; };
+		146B990419D98FCB00A2AF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B990319D98FCB00A2AF07 /* ViewController.swift */; };
+		146B990719D98FCB00A2AF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146B990519D98FCB00A2AF07 /* Main.storyboard */; };
+		146B990919D98FCB00A2AF07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146B990819D98FCB00A2AF07 /* Images.xcassets */; };
+		146B990C19D98FCB00A2AF07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B990A19D98FCB00A2AF07 /* LaunchScreen.xib */; };
+		146B991819D98FCC00A2AF07 /* GymTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B991719D98FCC00A2AF07 /* GymTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146B991219D98FCC00A2AF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146B98F419D98FCB00A2AF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 146B98FB19D98FCB00A2AF07;
+			remoteInfo = GymTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		146B98FC19D98FCB00A2AF07 /* GymTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146B990019D98FCB00A2AF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146B990119D98FCB00A2AF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		146B990319D98FCB00A2AF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		146B990619D98FCB00A2AF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146B990819D98FCB00A2AF07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146B990B19D98FCB00A2AF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		146B991119D98FCC00A2AF07 /* GymTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		146B991619D98FCC00A2AF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146B991719D98FCC00A2AF07 /* GymTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymTrackerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146B98F919D98FCB00A2AF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146B990E19D98FCC00A2AF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146B98F319D98FCB00A2AF07 = {
+			isa = PBXGroup;
+			children = (
+				146B98FE19D98FCB00A2AF07 /* GymTracker */,
+				146B991419D98FCC00A2AF07 /* GymTrackerTests */,
+				146B98FD19D98FCB00A2AF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146B98FD19D98FCB00A2AF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146B98FC19D98FCB00A2AF07 /* GymTracker.app */,
+				146B991119D98FCC00A2AF07 /* GymTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146B98FE19D98FCB00A2AF07 /* GymTracker */ = {
+			isa = PBXGroup;
+			children = (
+				146B990119D98FCB00A2AF07 /* AppDelegate.swift */,
+				146B990319D98FCB00A2AF07 /* ViewController.swift */,
+				146B990519D98FCB00A2AF07 /* Main.storyboard */,
+				146B990819D98FCB00A2AF07 /* Images.xcassets */,
+				146B990A19D98FCB00A2AF07 /* LaunchScreen.xib */,
+				146B98FF19D98FCB00A2AF07 /* Supporting Files */,
+			);
+			path = GymTracker;
+			sourceTree = "<group>";
+		};
+		146B98FF19D98FCB00A2AF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146B990019D98FCB00A2AF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146B991419D98FCC00A2AF07 /* GymTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				146B991719D98FCC00A2AF07 /* GymTrackerTests.swift */,
+				146B991519D98FCC00A2AF07 /* Supporting Files */,
+			);
+			path = GymTrackerTests;
+			sourceTree = "<group>";
+		};
+		146B991519D98FCC00A2AF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146B991619D98FCC00A2AF07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146B98FB19D98FCB00A2AF07 /* GymTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146B991B19D98FCC00A2AF07 /* Build configuration list for PBXNativeTarget "GymTracker" */;
+			buildPhases = (
+				146B98F819D98FCB00A2AF07 /* Sources */,
+				146B98F919D98FCB00A2AF07 /* Frameworks */,
+				146B98FA19D98FCB00A2AF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymTracker;
+			productName = GymTracker;
+			productReference = 146B98FC19D98FCB00A2AF07 /* GymTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		146B991019D98FCC00A2AF07 /* GymTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146B991E19D98FCC00A2AF07 /* Build configuration list for PBXNativeTarget "GymTrackerTests" */;
+			buildPhases = (
+				146B990D19D98FCC00A2AF07 /* Sources */,
+				146B990E19D98FCC00A2AF07 /* Frameworks */,
+				146B990F19D98FCC00A2AF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				146B991319D98FCC00A2AF07 /* PBXTargetDependency */,
+			);
+			name = GymTrackerTests;
+			productName = GymTrackerTests;
+			productReference = 146B991119D98FCC00A2AF07 /* GymTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146B98F419D98FCB00A2AF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sean Coetzee";
+				TargetAttributes = {
+					146B98FB19D98FCB00A2AF07 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					146B991019D98FCC00A2AF07 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 146B98FB19D98FCB00A2AF07;
+					};
+				};
+			};
+			buildConfigurationList = 146B98F719D98FCB00A2AF07 /* Build configuration list for PBXProject "GymTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146B98F319D98FCB00A2AF07;
+			productRefGroup = 146B98FD19D98FCB00A2AF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146B98FB19D98FCB00A2AF07 /* GymTracker */,
+				146B991019D98FCC00A2AF07 /* GymTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146B98FA19D98FCB00A2AF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B990719D98FCB00A2AF07 /* Main.storyboard in Resources */,
+				146B990C19D98FCB00A2AF07 /* LaunchScreen.xib in Resources */,
+				146B990919D98FCB00A2AF07 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146B990F19D98FCC00A2AF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146B98F819D98FCB00A2AF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B990419D98FCB00A2AF07 /* ViewController.swift in Sources */,
+				146B990219D98FCB00A2AF07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		146B990D19D98FCC00A2AF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B991819D98FCC00A2AF07 /* GymTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		146B991319D98FCC00A2AF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 146B98FB19D98FCB00A2AF07 /* GymTracker */;
+			targetProxy = 146B991219D98FCC00A2AF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		146B990519D98FCB00A2AF07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146B990619D98FCB00A2AF07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146B990A19D98FCB00A2AF07 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146B990B19D98FCB00A2AF07 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146B991919D98FCC00A2AF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		146B991A19D98FCC00A2AF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146B991C19D98FCC00A2AF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146B991D19D98FCC00A2AF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		146B991F19D98FCC00A2AF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GymTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymTracker.app/GymTracker";
+			};
+			name = Debug;
+		};
+		146B992019D98FCC00A2AF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GymTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymTracker.app/GymTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146B98F719D98FCB00A2AF07 /* Build configuration list for PBXProject "GymTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146B991919D98FCC00A2AF07 /* Debug */,
+				146B991A19D98FCC00A2AF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146B991B19D98FCC00A2AF07 /* Build configuration list for PBXNativeTarget "GymTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146B991C19D98FCC00A2AF07 /* Debug */,
+				146B991D19D98FCC00A2AF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		146B991E19D98FCC00A2AF07 /* Build configuration list for PBXNativeTarget "GymTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146B991F19D98FCC00A2AF07 /* Debug */,
+				146B992019D98FCC00A2AF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146B98F419D98FCB00A2AF07 /* Project object */;
+}
